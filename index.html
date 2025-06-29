@@ -3,83 +3,78 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bjorn & Oak</title>
-  <link href="https://fonts.googleapis.com/css2?family=Rye&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <title>Tux & Timber</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: url('woodgrain.jpg') no-repeat center center fixed;
-      background-size: cover;
-      color: #fff;
+      font-family: 'Cardo', serif;
+      background: #f5f2ee;
+      color: #2e2e2e;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       text-align: center;
+      padding: 2rem;
     }
-    header {
-      padding: 4rem 1rem 2rem;
-      background-color: rgba(0,0,0,0.6);
-    }
+
     .logo {
       max-width: 300px;
       width: 100%;
       margin-bottom: 2rem;
     }
-    .tagline {
-      font-size: 1.25rem;
-      margin-top: 0.5rem;
-      font-style: italic;
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
     }
-    section {
-      padding: 3rem 1rem;
-      background-color: rgba(0, 0, 0, 0.5);
+
+    p {
+      max-width: 600px;
+      line-height: 1.6;
+      font-size: 1.15rem;
+      margin: 1rem 0;
     }
-    a {
-      color: #d4af7f;
-      text-decoration: none;
+
+    .contact {
+      margin-top: 2.5rem;
       font-weight: bold;
+      font-family: 'Roboto', sans-serif;
     }
-    .social-icons a {
-      margin: 0 1rem;
-      font-size: 1.2rem;
+
+    a {
+      color: #5d4037;
+      text-decoration: none;
     }
-    footer {
-      padding: 2rem;
-      font-size: 0.9rem;
-      background-color: rgba(0,0,0,0.4);
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .bear {
+      font-size: 1.5rem;
     }
   </style>
 </head>
 <body>
-  <header>
-    <div class="logo"><img src="bjornandoak.png" alt="Bjorn & Oak" class="logo" /></div>
-    <div class="tagline">Grain, grit, and Norse-rooted woodworking</div>
-  </header>
+  <img src="bjornandoak.png" alt="Bjorn & Oak" class="logo" />
 
-  <section id="about">
-    <h2>About</h2>
-    <p>
-      Welcome to Bjorn & Oak, a one-man workshop rooted in craftsmanship, heritage, and heart.
+  <h1>Bjorn & Oak</h1>
+
+  <p>
+    Welcome to <strong>Bjorn & Oak</strong>, a one-man workshop rooted in craftsmanship, heritage, and heart.
 
 The name's Chris. I'm a husband, father, and craftsman reviving the tradition of honest, handmade furniture and goods. With strong Viking roots, a bear’s spirit, and a love of oak, every piece I make is built to last and made to matter.
-    </p>
+  </p>
 
-    <p>
-     ᚢᚱ ᛁᛅᚴ ᚢᚴ ᚼᛁᛅᚱᛏᛅ
-    </p>
-  </section>
+  <p>
+    Every piece is a quiet tribute to craft and comfort. Made strong. Made to last. Made with heart.
+  </p>
 
-  <section id="contact">
-    <h2>Get in Touch</h2>
-    <p>
-      Reach out via <a href="https://instagram.com/bjornandoak" target="_blank">Instagram</a> or send an email to<br />
-      <a href="mailto:chris@bjornandoak.com">chris@bjornandoak.com</a>
-    </p>
-    <div class="social-icons">
-      <a href="https://instagram.com/bjornandoak" target="_blank">Instagram</a>
-      |
-      <a href="mailto:chris@bjornandoak.com">Email</a>
-    </div>
-  </section>
-
+  <div class="contact">
+    <span class="bear">🐻</span> Email: <a href="mailto:chris@bjornandoak.com">chris@bjornandoak.com</a>
+  </div>
+  
   <footer>
     &copy; 2025 Bjorn & Oak. All rights reserved.
   </footer>
